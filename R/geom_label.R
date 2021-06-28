@@ -64,7 +64,7 @@ GeomTimelineLabel <- ggplot2::ggproto("GeomTimelineLabel", ggplot2::Geom,
 #' @param show.legend TRUE to show legend
 #' @param inherit.aes Basically inherit the aesthetics or not
 #'
-#' @return
+#' @return This returns the geom timeline with label
 #'
 #' @examples
 #' \dontrun{

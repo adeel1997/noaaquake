@@ -39,7 +39,7 @@ geom_timeline(
 \item{...}{Other arguments that can be passed}
 }
 \value{
-
+This return the geom timeline
 }
 \description{
 Geom function for creating the timeline from Earthquake data from NOAA

@@ -21,8 +21,7 @@ Leaflet map tool
 \dontrun{
 data_clean <- NOAA_data \%>\%
 eq_clean_data() \%>\%
-eq_location_clean() \%>\%
-dplyr::filter(Country == "India" & lubridate::year(Date) >= 2000)
+dplyr::filter(Country == "India"|Country == "Pakistan" & lubridate::year(date) >= 2000)
 eq_map(data = data_clean, annot_col = "Mag")
 }
 }

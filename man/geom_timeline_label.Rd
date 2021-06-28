@@ -33,7 +33,7 @@ geom_timeline_label(
 \item{inherit.aes}{Basically inherit the aesthetics or not}
 }
 \value{
-
+This returns the geom timeline with label
 }
 \description{
 Adding label to Geom Timeline

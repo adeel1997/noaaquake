@@ -13,7 +13,7 @@
 #' @param ... Other arguments that can be passed
 #'
 #' @importFrom magrittr %>%
-#' @return
+#' @return This return the geom timeline
 #'
 #' @examples
 #' \dontrun{
